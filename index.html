@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Management System for EVs</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <script src="script.js" defer></script> <!-- Link to your JavaScript file -->
+</head>
+<body>
+    <header>
+        <h1>Energy Management System</h1>
+        <h2>Optimize Your Electric Vehicle's Energy Consumption</h2>
+    </header>
+    
+    <main>
+        <section id="dashboard">
+            <h2>Dashboard</h2>
+            <form id="energyForm">
+                <label for="batteryHealth">Battery Health (%):</label>
+                <input type="number" id="batteryHealth" required>
+
+                <label for="energyConsumption">Energy Consumption (kWh/100km):</label>
+                <input type="number" id="energyConsumption" required>
+
+                <label for="distance">Distance (km):</label>
+                <input type="number" id="distance" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="results">
+            <h3>Optimization Suggestions:</h3>
+            <ul id="suggestions"></ul>
+        </section>
+
+        <section id="optimization-tips">
+            <h2>Tips for Energy Optimization</h2>
+            <ul>
+                <li>Maintain steady speeds while driving.</li>
+                <li>Utilize regenerative braking effectively.</li>
+                <li>Plan your routes to include charging stations.</li>
+                <li>Keep your tires properly inflated.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Energy Management System | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
+
+
