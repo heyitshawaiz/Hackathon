@@ -19,6 +19,10 @@ Database: MongoDB
 
 Libraries: Mongoose (for MongoDB interactions), body-parser, cors
 
+(OR)
+
+## Execute with Jupyter Notebook
+
 ### Prerequisites
 Node.js installed on your machine.
 
