@@ -12,10 +12,14 @@ This project is an Energy Management System designed for Electric Vehicles (EVs)
 
 ### Technologies Used
 Frontend: HTML, CSS, JavaScript
+
 Backend: Node.js
+
 Database: MongoDB
+
 Libraries: Mongoose (for MongoDB interactions), body-parser, cors
 
 ### Prerequisites
 Node.js installed on your machine.
+
 MongoDB instance (either local or MongoDB Atlas).
